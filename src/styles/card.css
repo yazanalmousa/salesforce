@@ -1,0 +1,155 @@
+.cards-container {
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  padding: 1em;
+  margin: 1em;
+  background-color: white;
+  transition: 0.1s;
+}
+.refrences {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards-container h1 {
+  color: #fe7a36;
+}
+.cards-container a {
+  color: black;
+}
+.rating-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 18em;
+  justify-content: space-between;
+}
+.open-file-tag {
+  height: 2em;
+  width: 7em;
+  text-align: center;
+  border-radius: 10px;
+}
+.open-file-btn {
+  border: none;
+  border-radius: 10px;
+  width: 7em;
+  height: 3em;
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#share-icon {
+  background-color: #fe7a36;
+  padding: 0.3em;
+  border-radius: 10px;
+}
+#file-icon {
+  color: #fe7a36;
+  margin-right: 0.5em;
+}
+.rate-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#rate-icon {
+  color: #ffcf40;
+}
+.cards-container:hover {
+  box-shadow: 0 0 20px 0 #fe7a36;
+}
+.ribbon-btn {
+  color: black;
+  border: none;
+  border-radius: 20px;
+  width: 10em;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding: 0.2em;}
+.share-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #fdf1eb;
+  width: 7em;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  padding: 1em;
+  color: #fe7a36;
+  text-decoration: none;
+}
+.title-container {
+  overflow: hidden;
+}
+.preview-container {
+  overflow: hidden;
+}
+@media all and (max-width: 450px) {
+  .rating-icons {
+    display: none;
+  }
+}
+@media all and (max-width: 600px) {
+  .title-container {
+    font-size: 1em;
+  }
+}
+@media all and (max-width: 600px) {
+  .preview-container {
+    font-size: 0.2em;
+  }
+}
+@media all and (max-width: 400px) {
+  .title-container {
+    font-size: 0.5em;
+    padding: 5px;
+  }
+}
+@media all and (max-width: 400px) {
+  .preview-container {
+    font-size: 7px;
+    padding: 5px;
+  }
+}
+@media all and (max-width: 400px) {
+  .open-file-btn {
+    width: 6em;
+    height: 2em;
+  }
+}
+@media all and (max-width: 300px) {
+  .ribbon-btn{
+    display: none;
+  }
+}
+@media all and (max-width: 300px) {
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+}
+@media all and (max-width: 400px) {
+  .ribbon-btn{
+    width: 8em;
+    font-size: 0.5em;
+  }
+  .ribbon-btn img{
+    width: 15px;
+    height: 15px;
+  }
+}
+@media all and (max-width: 400px) {
+  .open-file-btn {
+    width: 8em;
+    font-size: 0.5em;
+  }
+}
