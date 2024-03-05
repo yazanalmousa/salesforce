@@ -12,7 +12,7 @@ function Card(props) {
         {props.name} 
       </h1>
       <p className="preview-container">
-        {props.desc}
+        file preview here 
       </p>
       <a className="refrences" href={props.url} target="_blank" download={true}>
         <span className="open-file-tag">

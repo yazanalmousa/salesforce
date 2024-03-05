@@ -111,6 +111,11 @@ body {
   top: 0;
   /* width: 100%; */
 }
+.toggle-cont{
+  display: 'flex';
+  flex-direction: row;
+  align-items: 'center';
+}
 @media all and (max-width: 1000px) {
   .list {
     display: none;
